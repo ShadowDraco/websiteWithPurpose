@@ -1,1 +1,56 @@
-/* blank style */ 
+
+header {
+    background-color:rgb(105, 195, 198);
+
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+
+    border:8px;
+    border-color:aquamarine;
+    border-style:outset;
+}
+
+nav { 
+    background-color:cadetblue;
+}
+
+.nav-link-list { 
+
+    /* make the list not show the bullet */
+    list-style-type: none;  
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10;
+    display:grid;
+
+    padding:5px;
+
+    border:4px;
+    border-color:rgb(70, 116, 203);
+    border-style:inset;
+}
+
+.nav-link-list li {
+    background-color:rgb(70, 152, 155);
+    opacity: 80%;
+
+    border-top:4px;
+    border-color:rgb(54, 116, 230);
+    border-style:outset;
+    transition: background-color 1s;
+}
+
+a {
+    color:rgb(10, 65, 120);
+}
+
+.nav-link-list li:hover {
+    background-color:rgba(30, 73, 59, 0.256);
+    opacity: 100%;
+}
+
+a:hover {
+    color:rgb(42, 88, 134);
+}
+
