@@ -1,3 +1,5 @@
+/* Base styling for all pages
+
 /* define variables */
 :root { 
     /* splash */ 
@@ -53,6 +55,8 @@ header {
     border-style:outset;
 }
 
+
+
 header h1 {
     border-left:6px;
     border-top:6px;
@@ -88,8 +92,8 @@ header h4 {
 }
 
 header h4:hover {
-    background-color:var(--tiffanyblue3);
-}
+    background-color:var(--tiffanyblue3); 
+} 
 
 /* everything for the nav */
 
@@ -102,8 +106,8 @@ nav {
     /* make the list not show the bullet */
     list-style-type: none;  
 
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3px;
     display:grid;
 
     padding:5px;
@@ -143,3 +147,41 @@ a:hover {
     color:var(--teal);
 }
 
+section {
+    background-color:var(--bluegrotto);
+}
+
+.page-explanation {
+    background-color:var(--bluegrotto);
+
+    padding-left:20px;
+
+    border-top:0x;
+    border-left:0px;
+    border-bottom:6px;
+    border-right:6px;
+
+    border-style:ridge;
+    border-color:var(--babyblue);
+}
+
+.page-explanation * {
+
+    padding-left: 10px;
+
+    border-left: 4px;
+    border-top:0px;
+    border-right:0px;
+    border-bottom:0px;
+
+    border-left-width:10px;
+    border-style:groove;
+    border-color:var(--seashell);
+
+    transition:background-color 1s;
+    transition:visibility 1s;
+}
+
+.page-explanation *:hover {
+    background-color:var(--bluegrotto2);
+}

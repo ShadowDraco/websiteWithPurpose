@@ -1,0 +1,31 @@
+
+/* add blank space to the page */
+.spacer {
+    width: auto;
+    height:50px;
+    opacity:0;
+
+    background-color:var(--navyblue);
+    transition: opacity 1s;
+}
+
+.spacer:hover {
+    opacity: 20%;
+}
+
+.click-reveal {
+    border:none;
+}
+
+.hideable {
+    border:none;
+}
+
+.hidden {
+    transition:1s;
+    display:none;
+}
+
+.no-border {
+    border:none;
+}
