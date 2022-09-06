@@ -9,6 +9,7 @@ let allClickReveals = document.querySelectorAll('.click-reveal');
 function hideHiddenContent(e) {
     console.log('hidden an element!');
     e.target.firstElementChild.classList.add('hidden');
+    
 }
 
 function revealHiddenContent(e) {
@@ -18,6 +19,7 @@ function revealHiddenContent(e) {
 
             console.log('revealing a hidden element!');
             e.target.firstElementChild.classList.remove('hidden');
+           
         } 
         // if it is visible hide it
         else {
@@ -29,4 +31,5 @@ function revealHiddenContent(e) {
 allClickReveals.forEach( function(revealer) {
 
     revealer.addEventListener('click', revealHiddenContent);
+    console.log(revealer);
 });

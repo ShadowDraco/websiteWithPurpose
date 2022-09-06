@@ -1,7 +1,6 @@
 
 /* add blank space to the page */
 .spacer {
-    width: auto;
     height:50px;
     opacity:0;
 
@@ -28,4 +27,36 @@
 
 .no-border {
     border:none;
+}
+
+.signup-signin {
+    margin-top:20px;
+    margin-bottom:20px;
+
+    border-left:0px;
+    border-top:6px;
+    border-bottom:6px;
+    border-right:6px;
+        
+    border-color:var(--bluegrotto2);
+    border-style:groove;
+    
+    opacity: 80%;
+    
+    transition: background-color 1s;
+    
+}
+
+.signup-signin *:hover {
+    background-color:var(--tiffanyblue3);
+}
+
+.signup-signin p {
+    margin-top:2px;
+    margin-bottom:2px;
+}
+
+form {
+    border:3px var(--rosequartz) groove;
+    display:grid;
 }

@@ -77,6 +77,9 @@ header h1:hover {
 }
 
 header h4 {
+
+    margin-top:15px;
+
     border-left:6px;
     border-top:0px;
     border-bottom:6px;
@@ -94,6 +97,13 @@ header h4 {
 header h4:hover {
     background-color:var(--tiffanyblue3); 
 } 
+
+/* signup sign in styles */
+#header-grid {
+    grid-template-columns:repeat(2, 1fr);
+    grid-gap:15%;
+    display:grid;
+}
 
 /* everything for the nav */
 
