@@ -31,5 +31,4 @@ function revealHiddenContent(e) {
 allClickReveals.forEach( function(revealer) {
 
     revealer.addEventListener('click', revealHiddenContent);
-    console.log(revealer);
 });
