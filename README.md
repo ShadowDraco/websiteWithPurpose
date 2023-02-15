@@ -1,5 +1,6 @@
 # websiteWithPurpose
 
+I got in waaaay over my head... hahaha
 This will remain unfinished and this websites purpose and idea, looks etc will be made into a new website in the future
 
 
